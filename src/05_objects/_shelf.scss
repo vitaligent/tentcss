@@ -1,0 +1,17 @@
+// ==========================================================================
+// Shelf
+// ==========================================================================
+
+.shelf {
+    @extend .flex;
+    @extend .flex--center;
+    justify-content: space-between;
+}
+
+.shelf__item {
+    @extend .flex__item;
+    @extend .flex--center;
+    flex-basis: auto;
+    flex-grow: 1;
+    flex-shrink: 0;
+}
